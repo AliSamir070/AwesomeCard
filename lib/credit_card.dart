@@ -147,7 +147,7 @@ class _CreditCardState extends State<CreditCard>
         boxShadow: widget.showShadow
             ? [
                 BoxShadow(
-                  color: Colors.black.withOpacity(0.05),
+                  color: Colors.black.withOpacity(0.5),
                   blurRadius: 30,
                   offset: Offset(14, // horizontal, move right 10
                     17, // vertical, move down 10
@@ -200,7 +200,7 @@ class _CreditCardState extends State<CreditCard>
         boxShadow: widget.showShadow
             ? [
                 BoxShadow(
-                  color: Colors.black.withOpacity(0.05),
+                  color: Colors.black.withOpacity(0.5),
                   blurRadius: 30,
                   offset: Offset(14, // horizontal, move right 10
                     17, // vertical, move down 10
